@@ -12,4 +12,4 @@ def index():
     return "This is the application mynote & I'm alive"
 
 if __name__ == "__main__":
-    app.run(debug = "True")
+    app.run(debug = "True", port=8080)
